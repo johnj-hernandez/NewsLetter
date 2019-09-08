@@ -10,9 +10,28 @@
       href="https://fonts.googleapis.com/css?family=Lato|Montserrat&display=swap"
       rel="stylesheet"
     />
+
+    <!-- primero agregamos la hoja de reseteo y luego nuestra hoja de estilo -->
+    <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
-  <div class="container card"></div>
+  <!-- el primer div usado para dar  tamaño del newsletter -->
+  <div class="container card">
+    <div id="back-image">
+      <!-- div usado para poner la imagen de fondo al inicio  -->
+    </div>
+    <!-- a continuacion se creare el div con el contenido verdadero del newsletter -->
+    <div id="news-content">
+      <!-- en primer lugar realizamos el encabezado el cual constara del titulo principal y el logo -->
+      <header>
+        <div>
+          <h1 id="main-title">DESCUBRE EL MUNDO COLOMBINA</h1>
+        </div>
+        <img id="logo" src="img/logo.png" alt="" />
+        <div class="line"></div>
+      </header>
+    </div>
+  </div>
 
   <body></body>
 </html>

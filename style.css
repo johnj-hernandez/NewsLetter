@@ -1,3 +1,31 @@
+:root {
+  --primary-color: #25b4e5;
+  --secondary-color: #303f9f;
+  --gray-color: #82898c;
+}
+
+/*damos el formato al cuerpo , el texto tendra por defecto el color gris usado por la empresa y la fuente
+sera Lato, para los encabezadosTtitulos se usara Monstserrat*/
+body {
+  color: var(--gray-color);
+  font-family: "Lato", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Montserrat", sans-serif;
+  /* margin: 10px; */
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+}
+
 .card {
   /* sombras para el efecto de carta */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -10,8 +38,68 @@
 }
 
 .container {
+  position: relative;
   width: 720px;
   height: 900px;
-  /* background: teal; */
+  background: #f5f5f5;
   margin: 10px auto;
+}
+
+#back-image {
+  background: url("img/background2.jpg") no-repeat center center/cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 25%;
+  opacity: 0.45;
+}
+
+/*el contenedor del contenido*/
+#news-content {
+  /* background: #e8eaf6; */
+  background: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 150px;
+  right: 20px;
+  left: 20px;
+  width: 680px;
+  height: 700px;
+  margin: auto;
+}
+
+/* -----------------header---------------------- */
+/*el titulo principal   estilos del header*/
+#main-title {
+  float: left;
+  margin-top: 10px;
+  font-size: 2.5rem;
+  color: var(--secondary-color);
+}
+
+#logo {
+  width: 120px;
+  float: right;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+header {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+header div {
+  width: 70%;
+  margin-left: 40px;
+}
+
+.line {
+  height: 1px;
+  width: 80%;
+  background: var(--secondary-color);
+  display: block;
+  margin: 110px auto 1rem auto;
 }
