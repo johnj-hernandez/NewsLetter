@@ -18,6 +18,7 @@ h4,
 h5 {
   font-family: "Montserrat", sans-serif;
   /* margin: 10px; */
+  color: var(--primary-color);
 }
 
 h1 {
@@ -102,4 +103,47 @@ header div {
   background: var(--secondary-color);
   display: block;
   margin: 110px auto 1rem auto;
+}
+
+/*section bon bon */
+/* le damos un tamaño inferior al del contenido del newsletter y luego lo centramos, esta sera una seccion horizontal */
+#bon-bon {
+  margin: 120px auto;
+
+  padding: 10px;
+  width: 600px;
+  height: 210px;
+}
+
+#bon-bon img {
+  width: 45%;
+  height: 210px;
+  float: left;
+  border-radius: 20%;
+}
+
+#bon-bon div {
+  float: right;
+  padding-left: 15px;
+  width: 50%;
+}
+
+#bon-bon h5 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+#bon-bon p {
+  text-align: justify;
+}
+
+.btn {
+  display: inline-block;
+  margin: 5px 90px;
+  text-decoration: none;
+  color: white;
+  background: var(--primary-color);
+  padding: 5px;
+  border-radius: 10px;
 }
