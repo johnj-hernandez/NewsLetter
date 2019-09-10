@@ -1,5 +1,8 @@
 # NewsLetter
 
+## Deployment:
+### https://johnj-hernandez.github.io/NewsLetter/
+
 ### Fonts:
 ##### Lato(content)  and Monserrat(headings)
 added with: <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat&display=swap" rel="stylesheet">
