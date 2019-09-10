@@ -75,13 +75,16 @@ h1 {
 #main-title {
   float: left;
   margin-top: 10px;
+  margin-left: 35px;
+  margin-right: -70px;
   font-size: 2.5rem;
   color: var(--secondary-color);
+  text-align: center;
 }
 
 #logo {
   width: 120px;
-  float: right;
+  /* float: right; */
   margin-right: 20px;
   margin-top: 20px;
 }
@@ -104,6 +107,13 @@ header div {
   display: block;
   margin: 110px auto 1rem auto;
 }
+.line2 {
+  height: 1px;
+  width: 80%;
+  background: var(--secondary-color);
+  display: block;
+  margin: 30px auto 1rem auto;
+}
 
 /*section bon bon */
 /* le damos un tamaño inferior al del contenido del newsletter y luego lo centramos, esta sera una seccion horizontal */
@@ -116,8 +126,9 @@ header div {
 }
 
 #bon-bon img {
-  width: 45%;
-  height: 210px;
+  margin-top: 20px;
+  width: 270px;
+  height: 135px;
   float: left;
   border-radius: 20%;
 }
@@ -169,6 +180,7 @@ header div {
   float: left;
   padding-left: 15px;
   width: 50%;
+  margin-left: 10px;
 }
 
 #cookie h5 {
@@ -239,4 +251,14 @@ footer a {
   color: white;
   font-size: 3rem;
   text-decoration: none;
+}
+
+/* MODIFICACIONES----------- */
+#logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 180px;
+  height: 90px;
+  margin-left: 20px;
 }
